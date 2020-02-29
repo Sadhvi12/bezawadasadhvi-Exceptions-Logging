@@ -21,7 +21,7 @@ public class App
         int op = Integer.parseInt(brin.readLine());
         if(op == 1){
             InterestCalculate i = new InterestCalculate();
-            double interest = 0;
+   double interest = 0;
             logger.info("\n1.Simple Interest\n2.Compond Interest\nEnter your option : ");
             int typeofInterest = Integer.parseInt(brin.readLine());
             double principal,rateofInterest,time,noOfTimesPerYear;
